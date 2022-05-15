@@ -1,7 +1,7 @@
 let express = require("express");
 let path = require("path");
 let app = express();
-let port = 8000;
+let port = process.env.port || 8000;
 
 //EXPRESS SPECIFIC STUFF
 app.use("/static",express.static("static"));

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@500&display=swap');
+h1{
+    text-align: center;
+    margin: 7px 0px;
+}
+
+.myInput{
+   width: 45%;
+   padding: 8px;
+   margin: 19px;
+   font-size: 12px;
+   border: 2px solid #503333;
+   border-radius: 10px;
+   outline: none;
+   
+
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    padding: 7px;
+    font-size: 12px;
+    border: 2px solid #503333;
+    border-radius: 6px;
+    color: white;
+    background-color: #e96262;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container{
+    margin-top: 20px;
+    height: 80vh;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+
+}
+#navbar {
+    background-color: #c77474;
+    padding: 13px 14px;
+}
+
+#navbar li{
+    list-style: none;
+    font-family: 'Anek Odia', sans-serif;
+
+}
+
+
+#navbar li a{
+ text-decoration: none;
+ padding: 13px 30px;
+ color: white;
+ font-weight: bolder;
+ 
+ 
+}
+
+#navbar li a:hover{
+   color: black;
+   transition: all .4s ease-in;
+    
+   }
+   
+
+#introSection {
+   height: 300px;
+   background-color: red;
+   background: center/cover no-repeat url("/static/bg.jpg");
+   color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Anek Odia', sans-serif;
+   font-size: 55px;
+    font-weight: bolder;
+    flex-direction: column;
+}
+#introSection  div.small{
+   font-size: 35px;
+
+}
+#sponsorsSection{
+
+    height: 250px;
+    background-color: rgb(233, 123, 147,0.5);
+}
+
+#sponsorsSection h3{
+   text-align: center;
+   padding-top: 12px;
+   font-family: 'Anek Odia', sans-serif;
+   font-size: 26px;
+
+}
+
+#missionSection{
+    height: 259px;
+    width: 67%;
+    margin: auto;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    height: 162px;
+    margin: 13px 17px;
+    display: inline-block;
+}
+
+.card h4{
+    text-align: center;
+    margin: 12px 12px;
+    font-family: 'Anek Odia', sans-serif;
+    
+}
+
+#missionSection h3{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 26px;
+ 
+ }
+
+
+#footer{
+
+    height: 60px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.card-img img{
+    height: 100px;
+    padding: 0px 7px;
+    margin: 0px 2px;
+}
+
+#sponsors {
+    height: 120px;
+    width: 695px;
+    margin:  7px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
